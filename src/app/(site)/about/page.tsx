@@ -10,7 +10,10 @@ export default function AboutPage() {
             src="/images/about/alycia-justin.png"
             alt="Alycia and Justin"
             fill
+            loading="eager"
             priority
+            placeholder="blur"
+            blurDataURL="/images/about/alycia-justin-blur.jpg"
             style={{
               objectPosition: "top",
               objectFit: "cover",

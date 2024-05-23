@@ -88,6 +88,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
             >
               {children}
               <SpeedInsights />
+              <Analytics />
             </ThemeProvider>
             <Toaster />
           </body>

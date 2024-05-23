@@ -2,7 +2,7 @@
 
 This is an open source starter template for Next.js applications.
 
-[![JustinBachtell.com](./public/images/logo-black.png)](https://justinbachtell.com/)
+[![JustinBachtell.com](./public/images/logo-white.png)](https://justinbachtell.com/)
 
 > **Important note**
 > The project is set up to use Docker, however an existing issue with Bun prevents the container from running. Please see https://github.com/oven-sh/bun/issues/5648 for more details. For now, the project is deployed with [Vercel](https://vercel.com).

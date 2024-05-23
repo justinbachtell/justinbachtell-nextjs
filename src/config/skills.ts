@@ -19,84 +19,84 @@ const skills: Skill[] = [
     name: "JavaScript",
     icon: "javascript",
     description:
-      "JavaScript is the programming language of the web. It is used to add interactivity to websites, create mobile apps, and build server-side applications.",
+      "JavaScript is a versatile programming language used for creating dynamic web content.",
   },
   {
     id: "typescript",
     name: "TypeScript",
     icon: "typescript",
     description:
-      "TypeScript is a superset of JavaScript that provides optional static typing, interfaces, and advanced features to JavaScript.",
+      "TypeScript is a statically typed superset of JavaScript that enhances code reliability.",
   },
   {
     id: "react",
     name: "React",
     icon: "react",
     description:
-      "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.",
+      "React is a JavaScript library for building interactive user interfaces.",
   },
   {
     id: "python",
     name: "Python",
     icon: "python",
     description:
-      "Python is a high-level, interpreted programming language that is used for web development, data analysis, artificial intelligence, and scientific computing.",
+      "Python is a high-level programming language known for its readability and versatility.",
   },
   {
     id: "php",
     name: "PHP",
     icon: "php",
     description:
-      "PHP is a server-side scripting language that is used to create dynamic web pages, e-commerce websites, and content management systems.",
+      "PHP is a server-side scripting language used to develop dynamic web pages and applications.",
   },
   {
     id: "linux",
     name: "Linux",
     icon: "linux",
     description:
-      "Linux is an open-source operating system that is used for web servers, supercomputers, and mobile devices.",
+      "Linux is an open-source operating system widely used in servers and development environments.",
   },
   {
     id: "aws",
     name: "AWS",
     icon: "aws",
     description:
-      "Amazon Web Services (AWS) is a cloud computing platform that provides a wide range of services, including computing power, storage, and databases.",
+      "Amazon Web Services (AWS) provides cloud computing solutions including storage, databases, and computing power.",
   },
   {
     id: "nodejs",
     name: "Node.js",
     icon: "node",
     description:
-      "Node.js is a JavaScript runtime that is used to build scalable network applications.",
+      "Node.js is a JavaScript runtime built on Chrome's V8 engine, ideal for scalable network applications.",
   },
   {
     id: "mysql",
     name: "MySQL",
     icon: "mysql",
     description:
-      "MySQL is an open-source relational database management system that is used to store and retrieve data for web applications.",
+      "MySQL is a popular open-source relational database management system.",
   },
   {
     id: "postgresql",
     name: "PostgreSQL",
     icon: "postgresql",
     description:
-      "PostgreSQL is an open-source object-relational database management system that is used to store and retrieve data for web applications.",
+      "PostgreSQL is a powerful, open-source object-relational database system.",
   },
   {
     id: "java",
     name: "Java",
     icon: "java",
     description:
-      "Java is a high-level, object-oriented programming language that is used to build web applications, mobile apps, and enterprise software.",
+      "Java is a widely-used, high-level programming language known for its portability and performance.",
   },
   {
     id: "docker",
     name: "Docker",
     icon: "docker",
     description:
-      "Docker is a platform that is used to develop, ship, and run applications in containers.",
+      "Docker is a platform for developing, shipping, and running applications in containers.",
   },
 ];
 
@@ -106,506 +106,500 @@ const allSkills: Skill[] = [
     name: "JavaScript",
     icon: "javascript",
     description:
-      "JavaScript is the programming language of the web. It is used to add interactivity to websites, create mobile apps, and build server-side applications.",
+      "JavaScript is a versatile programming language used for creating dynamic web content.",
   },
   {
     id: "typescript",
     name: "TypeScript",
     icon: "typescript",
     description:
-      "TypeScript is a superset of JavaScript that provides optional static typing, interfaces, and advanced features to JavaScript.",
+      "TypeScript is a statically typed superset of JavaScript that enhances code reliability.",
   },
   {
     id: "react",
     name: "React",
     icon: "react",
     description:
-      "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.",
+      "React is a JavaScript library for building interactive user interfaces.",
   },
   {
     id: "python",
     name: "Python",
     icon: "python",
     description:
-      "Python is a high-level, interpreted programming language that is used for web development, data analysis, artificial intelligence, and scientific computing.",
+      "Python is a high-level programming language known for its readability and versatility.",
   },
   {
     id: "django",
     name: "Django",
     icon: "django",
     description:
-      "Django is a high-level Python web framework that is used to build web applications, APIs, and content management systems.",
+      "Django is a high-level Python web framework for building robust web applications.",
   },
   {
     id: "php",
     name: "PHP",
     icon: "php",
     description:
-      "PHP is a server-side scripting language that is used to create dynamic web pages, e-commerce websites, and content management systems.",
+      "PHP is a server-side scripting language used to develop dynamic web pages and applications.",
   },
   {
     id: "html",
     name: "HTML",
     icon: "html",
     description:
-      "HTML is the standard markup language for creating web pages and web applications.",
+      "HTML is the standard markup language for creating web pages and applications.",
   },
   {
     id: "css",
     name: "CSS",
     icon: "css",
-    description:
-      "CSS is the language used to style the visual presentation of web pages.",
+    description: "CSS is used to style the visual presentation of web pages.",
   },
   {
     id: "bash",
     name: "Bash",
     icon: "bash",
     description:
-      "Bash is a Unix shell and command language that is used to automate tasks, manage files, and run scripts.",
+      "Bash is a Unix shell used for scripting and command language tasks.",
   },
   {
     id: "linux",
     name: "Linux",
     icon: "linux",
     description:
-      "Linux is an open-source operating system that is used for web servers, supercomputers, and mobile devices.",
+      "Linux is an open-source operating system widely used in servers and development environments.",
   },
   {
     id: "ubuntu",
     name: "Ubuntu",
     icon: "ubuntu",
     description:
-      "Ubuntu is a Linux distribution that is based on Debian and is used for personal computers, servers, and cloud computing.",
+      "Ubuntu is a user-friendly Linux distribution based on Debian.",
   },
   {
     id: "apple",
     name: "Apple",
     icon: "apple",
     description:
-      "Apple OS is a group of several graphical operating system families that are developed, marketed, and sold by Apple Inc.",
+      "Apple OS includes macOS, iOS, and iPadOS, known for their user-friendly interfaces and seamless ecosystem.",
   },
   {
     id: "windows",
     name: "Windows",
     icon: "windows",
     description:
-      "Microsoft Windows is a group of several graphical operating system families that are developed, marketed, and sold by Microsoft.",
+      "Microsoft Windows is a widely-used operating system for personal and professional use.",
   },
   {
     id: "aws",
     name: "AWS",
     icon: "aws",
     description:
-      "Amazon Web Services (AWS) is a cloud computing platform that provides a wide range of services, including computing power, storage, and databases.",
+      "Amazon Web Services (AWS) provides cloud computing solutions including storage, databases, and computing power.",
   },
   {
     id: "nodejs",
     name: "Node.js",
     icon: "node",
     description:
-      "Node.js is a JavaScript runtime that is used to build scalable network applications.",
+      "Node.js is a JavaScript runtime built on Chrome's V8 engine, ideal for scalable network applications.",
   },
   {
     id: "mysql",
     name: "MySQL",
     icon: "mysql",
     description:
-      "MySQL is an open-source relational database management system that is used to store and retrieve data for web applications.",
+      "MySQL is a popular open-source relational database management system.",
   },
   {
     id: "postgresql",
     name: "PostgreSQL",
     icon: "postgresql",
     description:
-      "PostgreSQL is an open-source object-relational database management system that is used to store and retrieve data for web applications.",
+      "PostgreSQL is a powerful, open-source object-relational database system.",
   },
   {
     id: "git",
     name: "Git",
     icon: "git",
     description:
-      "Git is a distributed version control system that is used to track changes in source code during software development.",
+      "Git is a distributed version control system for tracking changes in source code.",
   },
   {
     id: "github",
     name: "GitHub",
     icon: "github",
     description:
-      "GitHub is a web-based platform that provides hosting for software development version control using Git.",
+      "GitHub is a platform for version control and collaboration using Git.",
   },
   {
     id: "jetbrains",
     name: "JetBrains",
     icon: "jetbrains",
     description:
-      "JetBrains is a software development company that provides tools for coding, debugging, and testing.",
+      "JetBrains provides integrated development environments (IDEs) for various programming languages.",
   },
   {
     id: "figma",
     name: "Figma",
     icon: "figma",
     description:
-      "Figma is a cloud-based design tool that is used to create user interfaces, prototypes, and animations.",
+      "Figma is a collaborative interface design tool for creating and prototyping user interfaces.",
   },
   {
     id: "notion",
     name: "Notion",
     icon: "notion",
     description:
-      "Notion is an all-in-one workspace that provides tools for note-taking, project management, and task tracking.",
+      "Notion is an all-in-one workspace for note-taking, project management, and collaboration.",
   },
   {
     id: "raycast",
     name: "Raycast",
     icon: "raycast",
     description:
-      "Raycast is a productivity tool for macOS that provides quick access to files, apps, and scripts.",
+      "Raycast is a macOS productivity tool for quick access to files, apps, and scripts.",
   },
   {
     id: "openai",
     name: "OpenAI",
     icon: "openai",
     description:
-      "OpenAI is an artificial intelligence research lab that is focused on developing safe and beneficial AI.",
+      "OpenAI is an AI research lab focused on developing safe and beneficial artificial intelligence.",
   },
   {
     id: "perplexity",
     name: "Perplexity",
     icon: "perplexity",
     description:
-      "Perplexity AI is a machine learning platform that provides tools for natural language processing, image recognition, and data analysis.",
+      "Perplexity AI provides tools for natural language processing, image recognition, and data analysis.",
   },
   {
     id: "wordpress",
     name: "WordPress",
     icon: "wordpress",
     description:
-      "WordPress is a content management system that is used to create websites, blogs, and e-commerce stores.",
+      "WordPress is a content management system for creating websites, blogs, and e-commerce stores.",
   },
   {
     id: "t3stack",
     name: "T3 Stack",
     icon: "t3stack",
     description:
-      "The T3 Stack is a full-stack development framework that is used to build web applications, mobile apps, and APIs.",
+      "The T3 Stack is a full-stack framework for building web applications and APIs.",
   },
   {
     id: "resend",
     name: "Resend",
     icon: "resend",
     description:
-      "Resend is a web development tool that is used to send emails, SMS messages, and push notifications.",
+      "Resend is a tool for sending emails, SMS messages, and push notifications in web development.",
   },
   {
     id: "supabase",
     name: "Supabase",
     icon: "supabase",
     description:
-      "Supabase is an open-source Firebase alternative that provides tools for building web applications with real-time data.",
+      "Supabase is an open-source Firebase alternative for building web applications with real-time data.",
   },
   {
     id: "nextjs",
     name: "Next.js",
     icon: "nextjs",
     description:
-      "Next.js is a React framework that is used to build static websites, web applications, and server-side rendered pages.",
+      "Next.js is a React framework for building static websites and server-side rendered applications.",
   },
   {
     id: "vercel",
     name: "Vercel",
     icon: "vercel",
     description:
-      "Vercel is a cloud platform that provides hosting for static websites, web applications, and serverless functions.",
+      "Vercel is a cloud platform for hosting static websites, web applications, and serverless functions.",
   },
   {
     id: "obs",
     name: "OBS Studio",
     icon: "obs",
     description:
-      "OBS Studio is a free and open-source software for video recording and live streaming.",
+      "OBS Studio is a free, open-source software for video recording and live streaming.",
   },
   {
     id: "radixui",
     name: "Radix UI",
     icon: "radixui",
     description:
-      "Radix UI is a collection of open-source components and utilities for building design systems with React.",
+      "Radix UI provides open-source components for building design systems with React.",
   },
   {
     id: "markdown",
     name: "Markdown",
     icon: "markdown",
     description:
-      "Markdown is a lightweight markup language that is used to format plain text documents.",
+      "Markdown is a lightweight markup language for formatting plain text documents.",
   },
   {
     id: "onepassword",
     name: "1Password",
     icon: "onepassword",
     description:
-      "1Password is a password manager that is used to store, manage, and share passwords securely.",
+      "1Password is a password manager for securely storing, managing, and sharing passwords.",
   },
   {
     id: "pnpm",
     name: "PNPM",
     icon: "pnpm",
     description:
-      "pnpm is a fast, disk space efficient package manager for JavaScript projects.",
+      "pnpm is a fast, space-efficient package manager for JavaScript projects.",
   },
   {
     id: "outlook",
     name: "Outlook",
     icon: "outlook",
     description:
-      "Microsoft Outlook is an email client that is used to send, receive, and manage email messages.",
+      "Microsoft Outlook is an email client for managing emails, calendars, and contacts.",
   },
   {
     id: "pycharm",
     name: "PyCharm",
     icon: "pycharm",
     description:
-      "PyCharm is an integrated development environment (IDE) that is used to develop Python applications.",
+      "PyCharm is an integrated development environment (IDE) for developing Python applications.",
   },
   {
     id: "phpstorm",
     name: "PhpStorm",
     icon: "phpstorm",
     description:
-      "PhpStorm is an integrated development environment (IDE) that is used to develop PHP applications.",
+      "PhpStorm is an integrated development environment (IDE) for developing PHP applications.",
   },
   {
     id: "webstorm",
     name: "WebStorm",
     icon: "webstorm",
     description:
-      "WebStorm is an integrated development environment (IDE) that is used to develop JavaScript applications.",
+      "WebStorm is an integrated development environment (IDE) for developing JavaScript applications.",
   },
   {
     id: "rider",
     name: "Rider",
     icon: "rider",
     description:
-      "Rider is an integrated development environment (IDE) that is used to develop .NET applications.",
+      "Rider is an integrated development environment (IDE) for developing .NET applications.",
   },
   {
     id: "intellij",
     name: "IntelliJ IDEA",
     icon: "intellij",
     description:
-      "IntelliJ IDEA is an integrated development environment (IDE) that is used to develop Java applications.",
+      "IntelliJ IDEA is an integrated development environment (IDE) for developing Java applications.",
   },
   {
     id: "shadcnui",
     name: "Shadcn UI",
     icon: "shadcnui",
     description:
-      "Shadcn UI is a collection of open-source components and utilities for building design systems with React.",
+      "Shadcn UI provides open-source components for building design systems with React.",
   },
   {
     id: "mintlify",
     name: "Mintlify",
     icon: "mintlify",
     description:
-      "Mintlify is a collection of open-source components and utilities for building documentation systems with React.",
+      "Mintlify provides components for building documentation systems with React.",
   },
   {
     id: "safari",
     name: "Safari",
     icon: "safari",
     description:
-      "Safari is a web browser that is developed by Apple Inc. for macOS, iOS, and iPadOS.",
+      "Safari is a web browser developed by Apple for macOS, iOS, and iPadOS.",
   },
   {
     id: "edge",
     name: "Edge",
     icon: "edge",
     description:
-      "Microsoft Edge is a web browser that is developed by Microsoft for Windows, macOS, iOS, and Android.",
+      "Microsoft Edge is a web browser developed by Microsoft for Windows, macOS, iOS, and Android.",
   },
   {
     id: "chromium",
     name: "Chromium",
     icon: "chromium",
     description:
-      "Chromium is an open-source web browser that is developed by Google and is the basis for Google Chrome.",
+      "Chromium is an open-source web browser developed by Google and the basis for Google Chrome.",
   },
   {
     id: "tor",
     name: "Tor",
     icon: "tor",
-    description:
-      "Tor is free and open-source software that is used to protect your privacy and security online.",
+    description: "Tor is software for protecting privacy and security online.",
   },
   {
     id: "arc",
     name: "Arc",
     icon: "arc",
-    description:
-      "Arc is a browser that is designed for speed, privacy, and security.",
+    description: "Arc is a browser focused on speed, privacy, and security.",
   },
   {
     id: "chrome",
     name: "Chrome",
     icon: "chrome",
     description:
-      "Google Chrome is a web browser that is developed by Google and is the most popular browser in the world.",
+      "Google Chrome is the world's most popular web browser developed by Google.",
   },
   {
     id: "brave",
     name: "Brave",
     icon: "brave",
     description:
-      "Brave is a web browser that is designed for speed, privacy, and security.",
+      "Brave is a web browser designed for speed, privacy, and security.",
   },
   {
     id: "firefox",
     name: "Firefox",
     icon: "firefox",
     description:
-      "Mozilla Firefox is a web browser that is developed by Mozilla and is known for its speed, privacy, and security.",
+      "Mozilla Firefox is a web browser known for its speed, privacy, and security.",
   },
   {
     id: "zod",
     name: "Zod",
     icon: "zod",
     description:
-      "Zod is a TypeScript-first schema declaration and validation library that is used to validate data.",
+      "Zod is a TypeScript-first schema declaration and validation library.",
   },
   {
     id: "sass",
     name: "Sass",
     icon: "sass",
     description:
-      "Sass is a preprocessor scripting language that is used to write CSS more efficiently.",
+      "Sass is a preprocessor scripting language that compiles to CSS.",
   },
   {
     id: "turbopack",
     name: "Turbo Pack",
     icon: "turbopack",
     description:
-      "Turbo Pack is a collection of open-source components and utilities for building design systems with React.",
+      "Turbo Pack provides tools for building design systems with React.",
   },
   {
     id: "reactrouter",
     name: "React Router",
     icon: "reactrouter",
     description:
-      "React Router is a collection of navigational components that are used to build single-page applications with React.",
+      "React Router provides navigational components for building single-page applications with React.",
   },
   {
     id: "reactquery",
     name: "React Query",
     icon: "reactquery",
     description:
-      "React Query is a library for managing, caching, and synchronizing server state in React applications.",
+      "React Query is a library for managing server state in React applications.",
   },
   {
     id: "jest",
     name: "Jest",
     icon: "jest",
     description:
-      "Jest is a JavaScript testing framework that is used to test JavaScript code.",
+      "Jest is a JavaScript testing framework for unit and integration testing.",
   },
   {
     id: "java",
     name: "Java",
     icon: "java",
     description:
-      "Java is a high-level, object-oriented programming language that is used to build web applications, mobile apps, and enterprise software.",
+      "Java is a widely-used, high-level programming language known for its portability and performance.",
   },
-
   {
     id: "atlassian",
     name: "Atlassian",
     icon: "atlassian",
     description:
-      "Atlassian is a software company that provides tools for project management, collaboration, and software development.",
+      "Atlassian provides tools for project management, collaboration, and software development.",
   },
   {
     id: "playwright",
     name: "Playwright",
     icon: "playwright",
     description:
-      "Playwright is a browser automation library that is used to automate web browsers with a single API.",
+      "Playwright is a library for automating web browsers with a single API.",
   },
   {
     id: "planetscale",
     name: "PlanetScale",
     icon: "planetscale",
     description:
-      "PlanetScale is a database company that provides tools for building, scaling, and managing databases.",
+      "PlanetScale provides tools for building, scaling, and managing databases.",
   },
-
   {
     id: "docker",
     name: "Docker",
     icon: "docker",
     description:
-      "Docker is a platform that is used to develop, ship, and run applications in containers.",
+      "Docker is a platform for developing, shipping, and running applications in containers.",
   },
   {
     id: "prisma",
     name: "Prisma",
     icon: "prisma",
     description:
-      "Prisma is a database toolkit that is used to access databases in Node.js and TypeScript applications.",
+      "Prisma is a toolkit for accessing databases in Node.js and TypeScript applications.",
   },
   {
     id: "bun",
     name: "Bun",
     icon: "bun",
-    description:
-      "Bun is a collection of open-source components and utilities for building design systems with React.",
+    description: "Bun provides tools for building design systems with React.",
   },
   {
     id: "jquery",
     name: "jQuery",
     icon: "jquery",
     description:
-      "jQuery is a fast, small, and feature-rich JavaScript library that is used to simplify HTML document traversal and manipulation.",
+      "jQuery is a fast, small JavaScript library for simplifying HTML document manipulation.",
   },
   {
     id: "storybook",
     name: "Storybook",
     icon: "storybook",
     description:
-      "Storybook is an open-source tool for developing UI components in isolation for React, Vue, and Angular.",
+      "Storybook is an open-source tool for developing UI components in isolation.",
   },
   {
     id: "astro",
     name: "Astro",
     icon: "astro",
     description:
-      "Astro is a new static site builder that is used to build faster websites with less JavaScript.",
+      "Astro is a static site builder for creating faster websites with less JavaScript.",
   },
   {
     id: "tailwind",
     name: "Tailwind CSS",
     icon: "tailwind",
     description:
-      "Tailwind CSS is a utility-first CSS framework that is used to build custom designs without writing any CSS.",
+      "Tailwind CSS is a utility-first framework for building custom designs without writing CSS.",
   },
   {
     id: "homebrew",
     name: "Homebrew",
     icon: "homebrew",
     description:
-      "Homebrew is a package manager for macOS that is used to install software packages on macOS.",
+      "Homebrew is a package manager for macOS that simplifies software installation.",
   },
   {
     id: "npm",
     name: "NPM",
     icon: "npm",
     description:
-      "NPM is a package manager for JavaScript that is used to install, share, and distribute code.",
+      "NPM is a package manager for JavaScript used for sharing and distributing code.",
   },
   {
     id: "vscode",
     name: "VS Code",
     icon: "vscode",
     description:
-      "Visual Studio Code is a source code editor that is used to write, debug, and deploy code.",
+      "Visual Studio Code is a source code editor for writing, debugging, and deploying code.",
   },
 ];
 

@@ -87,7 +87,7 @@ Thanks goes to these amazing people for their contributions:
 
 <p align="center">
  <a href="https://github.com/justinbachtell/justinbachtell-nextjs/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=justinbachtell/justinbachtell-nextjs" />
+  <img src="https://contrib.rocks/image?repo=justinbachtell/justinbachtell-nextjs" />
  </a>
 </p>
 

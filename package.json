@@ -57,6 +57,7 @@
     "@trpc/next": "^11.0.0-rc.370",
     "@trpc/react-query": "^11.0.0-rc.370",
     "@trpc/server": "^11.0.0-rc.370",
+    "@vercel/speed-insights": "^1.0.10",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^1.0.0",

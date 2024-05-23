@@ -30,8 +30,8 @@ export function ContentSection({
   return (
     <section className={cn("space-y-6", className)} {...props}>
       <div className="flex flex-col sm:flex-row sm:items-end justify-between items-start gap-4">
-        <div className="sm:max-w-[58rem] flex-1 space-y-1 ">
-          <h2 className="font-heading text-3xl font-bold leading-[1.1] md:text-4xl">
+        <div className="sm:max-w-[58rem] flex-1 space-y-1">
+          <h2 className="font-heading text-3xl font-bold leading-[1.1] md:text-4xl mb-2">
             {title}
           </h2>
           {description ? (
@@ -61,17 +61,6 @@ export function ContentSection({
         >
           {children}
         </ChildrenShell>
-        <Button
-          variant="ghost"
-          className="mx-auto flex w-fit sm:hidden"
-          asChild
-        >
-          <Link href={href}>
-            {linkText}
-            <ArrowRightIcon className="ml-2 size-4" aria-hidden="true" />
-            <span className="sr-only"> {linkText}</span>
-          </Link>
-        </Button>
       </div>
     </section>
   );

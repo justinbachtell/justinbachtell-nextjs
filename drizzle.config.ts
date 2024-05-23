@@ -5,10 +5,10 @@ import { dbPrefix } from "@/lib/constants";
 
 export default {
   schema: "./src/db/schema/index.ts",
-  driver: "pg",
+  dialect: "postgresql",
   out: "./src/db/drizzle",
   dbCredentials: {
-    connectionString: env.DATABASE_URL,
+    url: env.DATABASE_URL,
   },
   tablesFilter: [`${dbPrefix}__*`],
 } satisfies Config;

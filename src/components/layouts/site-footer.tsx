@@ -16,7 +16,7 @@ export function SiteFooter() {
         <section
           id="footer-content"
           aria-labelledby="footer-content-heading"
-          className="flex flex-col gap-10 lg:flex-row justify-between mx-auto lg:mx-0 max-w-72 lg:max-w-full w-full"
+          className="flex flex-col gap-10 md:flex-row justify-between mx-auto lg:mx-0 max-w-full w-full px-1 overflow-hidden"
         >
           <section
             id="footer-branding"

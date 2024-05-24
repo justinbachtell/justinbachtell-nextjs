@@ -37,7 +37,7 @@ export function MobileNav({ items }: MobileNavProps) {
         <Button
           variant="ghost"
           size="icon"
-          className="size-5 hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden text-gray-800"
+          className="flex-col size-6 hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden text-gray-800"
         >
           <Icons.menu aria-hidden="true" className="text-gray-800" />
           <span className="sr-only">Toggle Menu</span>

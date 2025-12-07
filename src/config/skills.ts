@@ -29,11 +29,32 @@ const skills: Skill[] = [
       "TypeScript is a statically typed superset of JavaScript that enhances code reliability.",
   },
   {
+    id: "nextjs",
+    name: "Next.js",
+    icon: "nextjs",
+    description:
+      "Next.js is a React framework for building static websites and server-side rendered applications.",
+  },
+  {
     id: "react",
     name: "React",
     icon: "react",
     description:
       "React is a JavaScript library for building interactive user interfaces.",
+  },
+  {
+    id: "csharp",
+    name: "C#",
+    icon: "csharp",
+    description:
+      "C# is a general-purpose, object-oriented programming language used for building web applications and APIs.",
+  },
+  {
+    id: "dotnet",
+    name: ".NET",
+    icon: "dotnet",
+    description:
+      ".NET is a software framework for building web applications and APIs.",
   },
   {
     id: "python",
@@ -98,6 +119,13 @@ const skills: Skill[] = [
     description:
       "Docker is a platform for developing, shipping, and running applications in containers.",
   },
+  {
+    id: "bash",
+    name: "Bash",
+    icon: "bash",
+    description:
+      "Bash is a Unix shell used for scripting and command language tasks.",
+  },
 ];
 
 const allSkills: Skill[] = [
@@ -121,6 +149,27 @@ const allSkills: Skill[] = [
     icon: "react",
     description:
       "React is a JavaScript library for building interactive user interfaces.",
+  },
+  {
+    id: "blazor",
+    name: "Blazor",
+    icon: "blazor",
+    description:
+      "Blazor is a .NET web framework for building web applications using C# and HTML.",
+  },
+  {
+    id: "csharp",
+    name: "C#",
+    icon: "csharp",
+    description:
+      "C# is a general-purpose, object-oriented programming language used for building web applications and APIs.",
+  },
+  {
+    id: "dotnet",
+    name: ".NET",
+    icon: "dotnet",
+    description:
+      ".NET is a software framework for building web applications and APIs.",
   },
   {
     id: "python",
@@ -607,7 +656,9 @@ const ProgrammingLanguages: SkillCategory = {
   id: "programming-languages",
   name: "Programming Languages",
   skills: allSkills.filter((skill) =>
-    ["javascript", "typescript", "python", "php", "java"].includes(skill.id),
+    ["javascript", "typescript", "csharp", "python", "php", "java"].includes(
+      skill.id,
+    ),
   ),
 };
 
@@ -617,6 +668,8 @@ const FrameworksAndLibraries: SkillCategory = {
   skills: allSkills.filter((skill) =>
     [
       "react",
+      "dotnet",
+      "blazor",
       "django",
       "nodejs",
       "nextjs",
